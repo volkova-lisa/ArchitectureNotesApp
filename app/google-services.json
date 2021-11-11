@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "829403382049",
+    "project_id": "notes-27fe1",
+    "storage_bucket": "notes-27fe1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829403382049:android:6131af8c97002cc2ebbe60",
+        "android_client_info": {
+          "package_name": "quizapp.volkova.notesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829403382049-l84nu13sf9dq611hbg6jesu65bq4ju3d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzgtnhZHD7FlhmCdwel_AJxsFn-QL1Qw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829403382049-l84nu13sf9dq611hbg6jesu65bq4ju3d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

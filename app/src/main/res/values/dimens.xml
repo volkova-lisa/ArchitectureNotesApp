@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_corner">10dp</dimen>
+    <dimen name="card_elev">5dp</dimen>
+    <dimen name="app_big_text">26sp</dimen>
+    <dimen name="app_marg">16dp</dimen>
+    <dimen name="card_top_marg">10dp</dimen>
+    <dimen name="app_normal_text">20sp</dimen>
+    <dimen name="btn_width">250dp</dimen>
+</resources>

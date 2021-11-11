@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LottieFragment">
+
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="1dp"
+        android:text="Welcome to"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="@color/white"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="1dp"
+        android:text="Notes"
+        android:textStyle="bold"
+        android:layout_below="@id/text1"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp"
+        android:textColor="@color/white"/>
+    <RelativeLayout
+        android:layout_marginLeft="-150dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/pink_button"
+        android:layout_width="500dp"
+        android:layout_height="140dp"/>
+    <RelativeLayout
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="230dp"
+        android:layout_marginRight="-50dp"
+        android:background="@drawable/pink_button"
+        android:layout_width="300dp"
+        android:layout_height="80dp"/>
+    <RelativeLayout
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="230dp"
+        android:layout_marginLeft="-50dp"
+        android:background="@drawable/pink_button"
+        android:layout_width="200dp"
+        android:layout_height="120dp"/>
+    <RelativeLayout
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="-50dp"
+        android:background="@drawable/pink_button"
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:lottie_url="https://assets6.lottiefiles.com/packages/lf20_pcfclxy8.json"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+</RelativeLayout>
