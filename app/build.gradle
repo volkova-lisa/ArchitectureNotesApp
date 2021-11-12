@@ -43,6 +43,11 @@ android {
 }
 
 dependencies {
+
+    implementation project("::data")
+    implementation project("::domain")
+    implementation project("::core")
+
     implementation "com.google.firebase:firebase-auth:17.0.0"
 
     implementation("androidx.room:room-runtime:2.3.0")
