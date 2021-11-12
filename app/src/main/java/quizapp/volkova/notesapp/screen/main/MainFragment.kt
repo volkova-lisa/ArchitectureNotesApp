@@ -8,7 +8,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.RecyclerView
 import quizapp.volkova.notesapp.R
 import quizapp.volkova.notesapp.databinding.FragmentMainBinding
-import quizapp.volkova.notesapp.models.NoteBody
+import com.example.data.entities.NoteBody
 import quizapp.volkova.notesapp.utils.APP_ACTIVITY
 import quizapp.volkova.notesapp.utils.Preference
 
@@ -75,7 +75,7 @@ class MainFragment : Fragment() {
     }
 
     companion object{
-        fun click(note:NoteBody){
+        fun click(note: NoteBody){
             val bundle = Bundle()
             bundle.putSerializable("note", note)
             APP_ACTIVITY.navController.navigate(R.id.action_mainFragment_to_insideNoteFragment, bundle)

@@ -1,4 +1,4 @@
-package quizapp.volkova.notesapp.models
+package com.example.data.entities
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

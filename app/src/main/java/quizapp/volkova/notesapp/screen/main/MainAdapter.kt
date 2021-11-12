@@ -7,7 +7,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.note_item.view.*
 import quizapp.volkova.notesapp.R
-import quizapp.volkova.notesapp.models.NoteBody
+import com.example.data.entities.NoteBody
 
 class MainAdapter:RecyclerView.Adapter<MainAdapter.MainHolder>() {
 

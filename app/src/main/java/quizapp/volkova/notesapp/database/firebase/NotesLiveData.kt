@@ -1,12 +1,10 @@
 package quizapp.volkova.notesapp.database.firebase
 
 import androidx.lifecycle.LiveData
-import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
-import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
-import quizapp.volkova.notesapp.models.NoteBody
+import com.example.data.entities.NoteBody
 import quizapp.volkova.notesapp.utils.REF_DATABASE
 
 class NotesLiveData: LiveData<List<NoteBody>>() {

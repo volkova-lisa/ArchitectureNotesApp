@@ -1,7 +1,7 @@
 package quizapp.volkova.notesapp.database
 
 import androidx.lifecycle.LiveData
-import quizapp.volkova.notesapp.models.NoteBody
+import com.example.data.entities.NoteBody
 
 interface DataBaseRepository {
     //should:

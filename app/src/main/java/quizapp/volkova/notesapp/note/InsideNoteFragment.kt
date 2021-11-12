@@ -6,7 +6,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import quizapp.volkova.notesapp.R
 import quizapp.volkova.notesapp.databinding.FragmentInsideNoteBinding
-import quizapp.volkova.notesapp.models.NoteBody
+import com.example.data.entities.NoteBody
 import quizapp.volkova.notesapp.utils.APP_ACTIVITY
 
 class InsideNoteFragment : Fragment() {

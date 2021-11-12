@@ -9,7 +9,7 @@ import androidx.lifecycle.ViewModelProvider
 import quizapp.volkova.notesapp.MyFirebaseMessagingService
 import quizapp.volkova.notesapp.R
 import quizapp.volkova.notesapp.databinding.FragmentCreateNoteBinding
-import quizapp.volkova.notesapp.models.NoteBody
+import com.example.data.entities.NoteBody
 import quizapp.volkova.notesapp.utils.APP_ACTIVITY
 import quizapp.volkova.notesapp.utils.showToast
 

@@ -1,8 +1,8 @@
-package quizapp.volkova.notesapp.database.room
+package com.example.data.db.dao
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import quizapp.volkova.notesapp.models.NoteBody
+import com.example.data.entities.NoteBody
 
 @Dao
 interface AppRoomDao {

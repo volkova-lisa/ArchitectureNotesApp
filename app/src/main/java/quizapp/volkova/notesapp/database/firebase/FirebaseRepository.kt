@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.FirebaseDatabase
 import quizapp.volkova.notesapp.database.DataBaseRepository
-import quizapp.volkova.notesapp.models.NoteBody
+import com.example.data.entities.NoteBody
 import quizapp.volkova.notesapp.utils.*
 
 class FirebaseRepository: DataBaseRepository {

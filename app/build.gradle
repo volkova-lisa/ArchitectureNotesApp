@@ -50,13 +50,14 @@ dependencies {
 
     implementation "com.google.firebase:firebase-auth:17.0.0"
 
-    implementation("androidx.room:room-runtime:2.3.0")
     //implementation 'com.google.firebase:firebase-crashlytics-ktx:18.2.3'
     implementation 'com.airbnb.android:lottie:4.2.0'
     implementation 'com.google.firebase:firebase-analytics-ktx:19.0.2'
     implementation 'com.google.firebase:firebase-database-ktx:20.0.2'
     implementation 'com.google.firebase:firebase-crashlytics-ktx:18.2.4'
     implementation 'com.google.firebase:firebase-messaging-ktx:23.0.0'
+
+    implementation("androidx.room:room-runtime:2.3.0")
     //for kotlin use kapt!!!
     kapt "androidx.room:room-compiler:2.3.0"
 

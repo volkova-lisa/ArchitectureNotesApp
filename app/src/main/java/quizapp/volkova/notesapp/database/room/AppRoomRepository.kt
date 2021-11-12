@@ -1,8 +1,9 @@
 package quizapp.volkova.notesapp.database.room
 
 import androidx.lifecycle.LiveData
+import com.example.data.db.dao.AppRoomDao
 import quizapp.volkova.notesapp.database.DataBaseRepository
-import quizapp.volkova.notesapp.models.NoteBody
+import com.example.data.entities.NoteBody
 
 class AppRoomRepository(private val appRoomDao: AppRoomDao): DataBaseRepository {
 
