@@ -9,18 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f0b4a30-c585-4855-87ab-02f44eb3505d" name="Default Changelist" comment="some cleaning">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_6_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_6_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/NotesApp.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/NotesApp.app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/domain/NotesApp.domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/domain/NotesApp.domain.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizapp/volkova/notesapp/database/room/AppRoomDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/example/data/db/dao/AppRoomDao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizapp/volkova/notesapp/database/room/AppRoomDatabase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/quizapp/volkova/notesapp/database/room/AppRoomDatabase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizapp/volkova/notesapp/database/room/AppRoomRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/quizapp/volkova/notesapp/database/room/AppRoomRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/data/build.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="9f0b4a30-c585-4855-87ab-02f44eb3505d" name="Default Changelist" comment="data moved" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +40,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.data.entities" />
       <recent name="com.example.data.db.dao" />
     </key>
   </component>
@@ -441,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636729717486</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="data moved">
+      <created>1636730376792</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1636730376792</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -459,6 +456,7 @@
     <MESSAGE value="modules added" />
     <MESSAGE value="visibility" />
     <MESSAGE value="some cleaning" />
-    <option name="LAST_COMMIT_MESSAGE" value="some cleaning" />
+    <MESSAGE value="data moved" />
+    <option name="LAST_COMMIT_MESSAGE" value="data moved" />
   </component>
 </project>

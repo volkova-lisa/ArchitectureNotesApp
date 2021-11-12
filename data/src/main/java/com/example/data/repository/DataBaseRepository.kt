@@ -1,4 +1,4 @@
-package quizapp.volkova.notesapp.database
+package com.example.data.repository
 
 import androidx.lifecycle.LiveData
 import com.example.data.entities.NoteBody

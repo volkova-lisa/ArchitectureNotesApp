@@ -3,7 +3,7 @@ package quizapp.volkova.notesapp.database.firebase
 import androidx.lifecycle.LiveData
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.FirebaseDatabase
-import quizapp.volkova.notesapp.database.DataBaseRepository
+import com.example.data.repository.DataBaseRepository
 import com.example.data.entities.NoteBody
 import quizapp.volkova.notesapp.utils.*
 
