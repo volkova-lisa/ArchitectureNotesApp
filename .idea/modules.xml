@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/NotesApp.iml" filepath="$PROJECT_DIR$/.idea/NotesApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NotesApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NotesApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/NotesApp.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/NotesApp.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/NotesApp.data.iml" filepath="$PROJECT_DIR$/.idea/modules/data/NotesApp.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/NotesApp.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/NotesApp.domain.iml" />
     </modules>
   </component>
 </project>
